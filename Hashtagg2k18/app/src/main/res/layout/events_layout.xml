@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="Technical Events"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_code"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   BlackIce - Code Hunt"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_quiz"
+                android:elevation="1dp"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Calicwiz - Tech Quiz"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_web"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Hydelineate - Web Designing"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_bug"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Defrost - Debugging"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event5"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_ppt"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Incendio - Paper Presentation"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="Non Technical Events"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_conn"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Floe - Connections"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event7"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_tres"
+                android:elevation="1dp"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Fiery Hunt - Treasure Hunt"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event8"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_adzap"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Spark_It_Up - Adzap"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event9"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_flim"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Scintillare - Short Film"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_game"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Blistrolic - Gaming"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:text="Workshop"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="22sp"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event11"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_robot"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   Robotics"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/event12"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@android:color/background_light"
+                android:drawableLeft="@drawable/ic_r"
+                android:elevation="1dp"
+                android:onClick="event_fun"
+                android:paddingLeft="20dp"
+                android:text="   R-Language"
+                android:textAlignment="viewStart"
+                android:typeface="sans" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
